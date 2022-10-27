@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>page text</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="pagina">
+        <div
+id="cabecalho">cabecalho</div>
+        <div
+id="cabecalho">esquerda</div>
+        <div id="centro">centro</div>
+        <div id="direita">direita</div>
+        <div id="rodape">rodape</div>
+    </div>
+</body>
+#pagina {
+    margin:0 auto;
+}
+#cabecalho, #esquerda, #centro, #direita, #rodape {
+    background-color: aqua;
+    margin:10px
+}
+#cabecalho{
+    height:150px
+}
+#esquerda{
+    width:20%;
+    height:500px;
+    float:letf;
+}
+#centro{
+    width:55%;
+    height:500px;
+    float:left;
+}
+#direita{
+    width:55%
+    height:500px;
+    float:right;
+}
+#rodape{}
+</body>
+</html>>
